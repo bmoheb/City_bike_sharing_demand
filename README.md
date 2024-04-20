@@ -1,16 +1,22 @@
 # City_bike_sharing_demand
  Bike Sharing Demand Analysis in Washington D.C.
+
+ 
 Description:
 Bike sharing systems redefine traditional bike rentals, automating the entire process from membership to rental and return. Users can effortlessly rent bikes from one location and return them to another, adding a new layer of convenience to urban transportation. These systems play a pivotal role in addressing urban challenges by contributing to traffic reduction, offering an alternative mode of transportation to alleviate congestion, especially in urban areas. Additionally, the widespread use of bikes as an eco-friendly mode of transport significantly reduces carbon emissions, fostering cleaner and greener urban environments. Moreover, by encouraging physical activity, bike sharing promotes a healthier lifestyle among users, positively impacting public health.
+
 
 Objectives:
 Conduct a comprehensive analysis of the Washington D.C. Bike Sharing dataset to uncover the correlation between the number of rented bikes and various factors, including temperature, season, and prevailing weather conditions.
 
+
 Dataset:
 While the dataset includes both daily and hourly data, our analysis specifically utilizes the daily count of rental bikes from 2011 to 2012 in Washington, D.C.'s Capital Bikeshare system along with corresponding weather and seasonal information.
 
+
 Content:
 The fields in both hour.csv and day.csv are identical, with the exception of the 'hr' field, which is not present in day.csv.
+
 
 instant: Record index
 dteday: Date
@@ -33,14 +39,18 @@ windspeed: Normalized wind speed. The values are divided by 67 (max)
 casual: Count of casual users
 registered: Count of registered users
 cnt: Count of total rental bikes, including both casual and registered
+
+
 Tools and Libraries:
 Jupyter Notebook
 Python
+
+
 Libraries: Pandas, Matplotlib, Seaborn
+
+
 Steps:
 Data Loading and Preprocessing
 Data Exploration
 Data Visualization
 Insights Documentation
-Project Structure:
-Link to Dataset
